@@ -41,10 +41,10 @@ public class MainActivity extends AppCompatActivity {
         Button btnResult = findViewById(R.id.btnresult);
 
         btnResult.setOnClickListener(new View.OnClickListener() {
-            @Override
+            @Override 
             public void onClick(View v) {
                 String univName = String.valueOf(edit1.getText());
-                String result = univName + "에 합격하신 것을 진심으로 축하드립니다";
+                String result = univName + "에 합격 하신 것을 진심으로 축하드립니다";
                 textResult.setText(result);
                 textResult.setTextColor(Color.rgb(135,40,0));
             }
